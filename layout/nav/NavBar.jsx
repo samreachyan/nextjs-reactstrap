@@ -27,7 +27,7 @@ function NavBar({
       <Navbar color="dark" dark expand="sm" fixed="top">
         <NavbarBrand href="/">
           <img src="/logo.svg" alt="Logo" className="logo" />
-          NextJS BS 4
+          Config Chat Bot
         </NavbarBrand>
         <NavbarToggler onClick={toggle} color="dark" />
         <Collapse isOpen={isOpen} navbar>
@@ -45,46 +45,15 @@ function NavBar({
                 ></i>
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="/page/typography">Typography</NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Pages
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem tag="div">
-                  <NavLink href="/card/posts" className="text-primary">
-                    Cards
-                  </NavLink>
-                </DropdownItem>
-                <DropdownItem tag="div">
-                  <NavLink href="/table/tables" className="text-primary">
-                    Tables
-                  </NavLink>
-                </DropdownItem>
-                <DropdownItem tag="div">
-                  <NavLink href="/form/buttons" className="text-primary">
-                    Buttons
-                  </NavLink>
-                </DropdownItem>
-                {/* <DropdownItem divider /> */}
-                <DropdownItem tag="div">
-                  <NavLink href="/form/forms" className="text-primary">
-                    Forms
-                  </NavLink>
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
           </Nav>
           <UncontrolledDropdown inNavbar>
             <DropdownToggle caret nav className="text-secondary">
               <NavbarText className="align-self-center text-left font-weight-bold">
                 <img
-                  src="/images/profile2.jpg"
+                  src="/images/profile6.jpg"
                   className="border rounded-circle img-42 img-fluid mr-1"
                 />
-                John Doe
+                Samreach
               </NavbarText>
             </DropdownToggle>
             <DropdownMenu>

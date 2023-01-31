@@ -1,8 +1,6 @@
 const THEME = {
-    title:'NEXTJS Reactstrap',
-    description:'React NextJS Website admin template',
+  title: 'Config Chat Bot System',
+  description: 'Config Chat Bot admin system with NextJS Reactstrap',
 };
 
-export {
-    THEME
-};
+export { THEME };

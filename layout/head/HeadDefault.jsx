@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 /** npm packages */
 import React, { Component } from 'react';
-import propTypes from 'prop-types';
 import Head from 'next/head';
 import { THEME } from '../../constants/vars';
 
